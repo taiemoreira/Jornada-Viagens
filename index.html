@@ -17,17 +17,39 @@
   <body>
     <header>
       <a href="index.html" title="Voltar para a página inicial">
-        <img src="img/bussola-jornada-branco.png" alt="Bussola representando a Logo da Marca Jornada Viagens">
+        <img
+          class="img-mobile"
+          src="img/bussola-jornada-branco.png"
+          alt="Bussola representando a Logo da Marca Jornada Viagens"
+        />
+        <img class="img-desktop" src="img/bussola-texto-jornada-branco.png" alt="Bussola representando a Logo da Marca Jornada Viagens com texto">
       </a>
-      <img src="img/menu.png" alt="menu">
-      <nav>
-        <ul>
-          <li><a href="blog.html" target="_blank" title="Acessar o Blog">Blog</a></li>
-          <li><a href="pacotes.html" target="_blank" title="Acessar Pacotes de Viagens">Pacote de Viagens</a></li>
-          <li><a href="contato.html" target="_blank" title="Acessar Contato">Contato</a></li>
-        </ul>
-      </nav>
-
+      <div class="navigation-menu">
+        <label for="menu"><img src="img/menu.png" alt="menu" /></label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a href="blog.html" target="_blank" title="Acessar o Blog"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar Pacotes de Viagens"
+                >Pacote de Viagens</a
+              >
+            </li>
+            <li>
+              <a href="contato.html" target="_blank" title="Acessar Contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
