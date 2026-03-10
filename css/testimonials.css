@@ -40,9 +40,3 @@
     flex-direction: row;
   }
 }
-
-@media screen and (min-width: 1024px) {
-  .testimonial-container {
-    flex-direction: row;
-  }
-}

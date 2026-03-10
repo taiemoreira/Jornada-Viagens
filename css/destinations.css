@@ -1,7 +1,6 @@
-.destinations .destination-items {
+.destination-items {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px;
 }
 
@@ -30,7 +29,6 @@
 
 .destinations .button {
   width: 100%;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -49,19 +47,26 @@
     background: url(/img/osaka-tablet-desk.jpg);
     background-size: cover;
   }
+  .destinations .button {
+    width: 280px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .destinations {
-    flex-direction: row;
-    flex-wrap: wrap;
+    width: 900px;
+  }
+  .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations {
     width: 1200px;
   }
   .destination-items {
-    width: 588px;
-  }
-  .destinations .img-item {
-    height: 452px;
-    width: 588px;
+    flex-direction: row;
   }
 }

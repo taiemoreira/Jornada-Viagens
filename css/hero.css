@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }

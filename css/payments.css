@@ -1,4 +1,4 @@
-.payments .content-container .image-gallery {
+.payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
@@ -22,7 +22,7 @@
   background-size: cover;
 }
 
-.colspan-2 {
+.payments .content-container .image-gallery .image.colspan-2 {
   grid-column: span 2;
 }
 
