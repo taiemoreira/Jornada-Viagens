@@ -1,5 +1,4 @@
-.hero .hero-img,
-.bottom-hero .hero-img {
+.hero .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -12,6 +11,8 @@
 .bottom-hero .hero-img {
   background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
   background-size: cover;
+  width: 98.8vw;
+  height: 400px;
 }
 
 .hero h2 {
@@ -24,13 +25,26 @@
 }
 
 /*PACOTES VIAGENS*/
+.bottom-pacotes, .bottom-hero {
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-pacotes .hero-img {
+  background: url(../img/travel-packages/japan-bg-bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+  width: 98.8vw;
+  height: 400px;
+}
+
 .hero-pacotes .hero-img {
-  background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
+  background: url(/img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
   background-size: cover;
 }
 
 .hero-pacotes {
   color: var(--text-secondary-color);
+  padding-bottom: 88px;
 }
 
 .hero-pacotes h1 {
@@ -43,7 +57,7 @@
 }
 
 .hero-pacotes p {
-  color: var(--text-weight);
+  font-weight: var(--text-weight);
   line-height: 26px;
   padding: 0 24px 0 24px;
 }
@@ -67,6 +81,29 @@
     padding: 88px 60px;
     font-size: 32px;
   }
+  /*PACOTES VIAGENS*/
+  .hero-pacotes {
+    align-items: center;
+  }
+  .bottom-pacotes .hero-img {
+    background: url(/img/travel-packages/japan-bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+  .hero-pacotes .hero-img {
+    background: url(/img/travel-packages/japan-bg-hero-tablet.png);
+  }
+  .hero-pacotes h1 {
+    width: auto;
+    padding-top: 210px;
+    font-size: 48px;
+    padding-left: 120px;
+  }
+  .hero-pacotes p {
+    padding: 0 50px 0 120px;
+    font-size: 32px;
+    line-height: 44px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -86,10 +123,30 @@
     background: url(../img/travel-packages/japan-bg-hero-desktop.png) no-repeat;
     background-size: cover;
   }
+  /*PACOTES VIAGENS*/
+  .bottom-pacotes .hero-img {
+    background: url(/img/travel-packages/japan-bg-bottom-hero-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .hero-pacotes p {
+    width: 770px;
+  }
+  .hero-pacotes .hero-img {
+    background: url(/img/travel-packages/japan-bg-hero-desktop.png);
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
+  }
+  /*PACOTES VIAGENS*/
+  .hero-pacotes h1 {
+    padding-left: 380px;
+  }
+  .hero-pacotes p {
+    font-size: 32px;
+    line-height: 44px;
+    margin-left: 260px;
   }
 }

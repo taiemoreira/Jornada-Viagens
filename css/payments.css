@@ -26,6 +26,39 @@
   grid-column: span 2;
 }
 
+/*PACOTES VIAGENS*/
+.payments-pacotes h3 {
+  font-size: 40px;
+}
+
+.payments-pacotes h4 {
+  font-size: 28px;
+}
+
+.payments-pacotes p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.payments-pacotes a {
+  width: 100%;
+}
+
+.payments-pacotes .content-container .image-gallery .image.first {
+  background: url(/img/travel-packages/gallery1-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments-pacotes .content-container .image-gallery .image.second {
+  background: url(/img/travel-packages/gallery2-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments-pacotes .content-container .image-gallery .image.thirdy {
+  background: url(/img/travel-packages/gallery3-mobile.png) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .payments .content-container .image-gallery .image.first {
     background: url(/img/gallery1-tablet.png) no-repeat;
@@ -39,18 +72,36 @@
     background: url(/img/gallery3-tablet.png) no-repeat;
     background-size: cover;
   }
+  /*PACOTES VIAGENS*/
+  .payments-pacotes .content-container .image-gallery .image.first {
+    background: url(/img/travel-packages/gallery1-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments-pacotes .content-container .image-gallery .image.second {
+    background: url(/img/travel-packages/gallery2-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments-pacotes .content-container .image-gallery .image.thirdy {
+    background: url(/img/travel-packages/gallery3-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .payments-pacotes a {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 1440px) {
-  .payments .content-container {
+@media screen and (min-width: 1024px) {
+  .payments .content-container,
+  .container-pacotes {
     display: flex;
-    justify-content: space-between;
-  }
-  .payments .content-container .text-content {
-    width: 360px;
+    gap: 10px;
   }
   .payments .content-container .image-gallery {
-    width: 790px;
+    width: 590px;
     margin: 0;
   }
+  .payments-pacotes p {
+    width: 360px;
+  }
+
 }
