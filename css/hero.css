@@ -24,9 +24,28 @@
 }
 
 /*PACOTES VIAGENS*/
-.hero .hero-pacotes {
+.hero-pacotes .hero-img {
   background: url(../img/travel-packages/japan-bg-hero-tablet.png) no-repeat;
   background-size: cover;
+}
+
+.hero-pacotes {
+  color: var(--text-secondary-color);
+}
+
+.hero-pacotes h1 {
+  width: 312px;
+  padding: 65px 24px 0 24px;
+}
+
+.hero-pacotes hr {
+  margin: 16px 0 32px 0;
+}
+
+.hero-pacotes p {
+  color: var(--text-weight);
+  line-height: 26px;
+  padding: 0 24px 0 24px;
 }
 
 @media screen and (min-width: 768px) {
