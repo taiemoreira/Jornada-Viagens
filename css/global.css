@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --primary-color: #8f0101;
   --secondary-color: #b81515;
@@ -59,7 +66,8 @@ section.bottom-hero {
   text-align: center;
 }
 
-.section-title hr {
+.section-title hr,
+.travel-packages .hero-content hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);

@@ -69,14 +69,12 @@ nav {
   .navigation-menu nav {
     display: block;
   }
-
   .navigation-menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
   }
-
   .navigation-menu li {
     margin: 0;
   }
@@ -93,7 +91,6 @@ nav {
   .img-desktop {
     display: block;
   }
-
   .img-mobile {
     display: none;
   }

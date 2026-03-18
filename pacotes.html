@@ -3,27 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Jornada Viagens - Seção Pacote Viagens">
+    <meta
+      name="description"
+      content="Jornada Viagens - Seção Pacote de Viagens"
+    />
 
     <link rel="icon" href="/img/bussola-jornada-branco.png" type="xml/svg" />
     <link rel="stylesheet" href="/css/styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Jornada Viagens</title>
   </head>
   <body>
-    <header class="main-header" aria-label="main-header">
+    <header class="main-header">
       <a href="index.html" class="logo" title="Voltar para a página inicial">
         <img
           class="img-mobile"
           src="img/bussola-jornada-branco.png"
-          alt="Bussola representando a logo: Jornada Viagens"
+          alt="Bússola representando a logo: Jornada Viagens"
         />
         <img
           class="img-desktop"
@@ -39,40 +35,36 @@
         <nav>
           <ul class="list-links">
             <li>
-              <a href="blog.html" target="_blank" title="Acessar o Blog"
-                >Blog</a
-              >
+              <a href="blog.html" title="Acessar o Blog">Blog</a>
             </li>
             <li>
               <a
                 href="pacotes.html"
-                target="_blank"
                 title="Acessar Pacotes de Viagens"
+                class="active"
                 >Pacote de Viagens</a
               >
             </li>
             <li>
-              <a href="contato.html" target="_blank" title="Acessar Contato"
-                >Contato</a
-              >
+              <a href="contato.html" title="Acessar Contato">Contato</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="hero hero-pacotes" aria-label="hero">
+    <section class="travel-packages hero">
       <div class="hero-img">
-        <h1 class="section-title">
-          Conheça o Japão!
+        <div class="hero-content">
+          <h1>Conheça o Japão!</h1>
           <hr />
-        </h1>
-        <p>
-          A Jornada possui o pacote perfeito para seu estilo e orçamento!
-          Conheça as belas paisagens e a cultura milenar deste belo país!
-        </p>
+          <p>
+            A Jornada possui o pacote perfeito para seu estilo e orçamento!
+            Conheça as belas paisagens e a cultura milenar deste belo país!
+          </p>
+        </div>
       </div>
     </section>
-    <section class="destinations" aria-label="destinations"  role="main">
+    <section class="travel-packages destinations" role="main">
       <div class="section-title">
         <h2>Destinos da Excursão</h2>
         <hr />
@@ -92,7 +84,6 @@
             <a
               href="#"
               class="button"
-              target="_blank"
               title="Veja mais detalhes do destino Tokyo"
               >Ver detalhes</a
             >
@@ -112,7 +103,6 @@
             <a
               href="#"
               class="button"
-              target="_blank"
               title="Veja mais detalhes do destino Osaka"
               >Ver detalhes</a
             >
@@ -120,38 +110,28 @@
         </article>
       </div>
     </section>
-    <section class="payments payments-pacotes" aria-label="payments">
+    <section class="travel-packages payments payments-pacotes">
       <div class="section-title">
         <h2>Pagamento</h2>
         <hr />
       </div>
-      <div class="container-pacotes">
-        <div>
-          <h3>R$4000</h3>
-          <h4>Em até 12x!</h4>
-          <p>
+      <div class="content-container container-pacotes">
+        <div class="text-content">
+          <h3 class="content-title">R$4000</h3>
+          <h3 class="content-title">Em até 12x</h3>
+          <p class="content-text">
             Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
             5% de desconto ou no Pix com 10% de desconto!
           </p>
-          <a
-            href="#"
-            class="button"
-            target="_blank"
-            title="Veja mais detalhes do destino Tokyo"
-            >Ver detalhes</a
-          >
         </div>
-        <div class="content-container">
-          <div class="text-content"></div>
-          <div class="image-gallery">
-            <div class="image first"></div>
-            <div class="image second"></div>
-            <div class="image thirdy colspan-2"></div>
-          </div>
+        <div class="image-gallery">
+          <div class="image first"></div>
+          <div class="image second"></div>
+          <div class="image thirdy colspan-2"></div>
         </div>
       </div>
     </section>
-    <section class="testimonial" aria-label="testimonial">
+    <section class="testimonials">
       <div class="section-title">
         <h2>Depoimentos</h2>
         <hr />
@@ -160,9 +140,9 @@
         <article>
           <header>
             <p>
-              A Jornada foi uma das melhores agências de viagens que eu já
-              experimentei. O serviço ao cliente foi excepcional, e toda a
-              equipe foi muito atenciosa e prestativa.
+              Tive uma experiência inesquecível. O pacote Japão me permitiu
+              explorar de templos antigos a cidades modernas. E o valor coube no
+              bolso, recomendo!
             </p>
           </header>
           <footer>
@@ -233,10 +213,10 @@
         </article>
       </div>
     </section>
-    <section class="bottom-pacotes" aria-label="bottom-hero">
+    <section class="travel-packages bottom-hero">
       <div class="hero-img"></div>
     </section>
-    <footer class="main-footer" aria-label="main-footer">
+    <footer class="main-footer">
       <div class="footer-content">
         <img src="img/logo-footer.png" alt="logo completo Jornada Viagens" />
         <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
@@ -245,22 +225,19 @@
       <div class="footer-social">
         <p>Acesse nossas redes:</p>
 
-        <a href="#" target="_blank" title="Acesse o Twitter do Jornada Viagens"
+        <a href="#" title="Acesse o Twitter do Jornada Viagens"
           ><img
             src="img/icone-whatsapp.svg"
             alt="icone do Twitter na cor branca"
         /></a>
 
-        <a
-          href="#"
-          target="_blank"
-          title="Acesse o Instagram do Jornada Viagens"
+        <a href="#" title="Acesse o Instagram do Jornada Viagens"
           ><img
             src="img/icone-instagram.svg"
             alt="icone do Instagram na cor branca"
         /></a>
 
-        <a href="#" target="_blank" title="Entre em contato através do whatsapp"
+        <a href="#" title="Entre em contato através do whatsapp"
           ><img
             src="img/icone-twitter.svg"
             alt="icone do whatsapp na cor branca"
