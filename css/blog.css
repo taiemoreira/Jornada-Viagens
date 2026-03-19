@@ -1,5 +1,5 @@
 .blog-hero .hero-img {
-  background: url(/img/blog-post/mountain-bg-hero-mobile.jpg) no-repeat;
+  background: url(./img/blog-post/mountain-bg-hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .blog-texts .img1-blog-texts {
-  background: url(/img/blog-post/gallery1-tokyo-tablet-mobile.png) no-repeat;
+  background: url(./img/blog-post/gallery1-tokyo-tablet-mobile.png) no-repeat;
   background-size: cover;
   height: 360px;
   width: 100%;
@@ -16,7 +16,7 @@
 }
 
 .blog-texts .img2-blog-texts {
-  background: url(/img/blog-post/gallery2-tokyo-mobile.png) no-repeat;
+  background: url(./img/blog-post/gallery2-tokyo-mobile.png) no-repeat;
   background-size: cover;
   height: 300px;
   width: 100%;
