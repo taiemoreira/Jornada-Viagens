@@ -1,5 +1,5 @@
 .contato-hero .hero-img {
-  background: url(/img/contato-form/bg-tablet-mobile.png) no-repeat;
+  background: url(/Jornada-Viagens/img/contato-form/bg-tablet-mobile.png) no-repeat;
   background-size: cover;
 }
 
@@ -57,13 +57,13 @@
 }
 
 .contato-bottom .hero-img {
-  background: url(/img/contato-form/bg-bottom-mobile.png) no-repeat;
+  background: url(/Jornada-Viagens/img/contato-form/bg-bottom-mobile.png) no-repeat;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
   .contato-hero .hero-img {
-    background: url(/img/contato-form/bg-desktop.png) no-repeat;
+    background: url(/Jornada-Viagens/img/contato-form/bg-desktop.png) no-repeat;
     background-size: cover;
     background-position: center;
   }
@@ -78,7 +78,7 @@
     text-align: center;
   }
   .contato-bottom .hero-img {
-    background: url(/img/contato-form/bg-bottom-tablet.png) no-repeat;
+    background: url(/Jornada-Viagens/img/contato-form/bg-bottom-tablet.png) no-repeat;
     background-size: cover;
     height: 600px;
   }
@@ -94,7 +94,7 @@
     width: 790px;
   }
   .contato-bottom .hero-img {
-    background: url(/img/contato-form/bg-bottom-desktop.png) no-repeat;
+    background: url(/Jornada-Viagens/img/contato-form/bg-bottom-desktop.png) no-repeat;
     background-size: cover;
     height: 600px;
     background-position: center;
