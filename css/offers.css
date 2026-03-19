@@ -41,7 +41,7 @@
 }
 
 .offers-cards .card.japao {
-  background: url(../img/bg-card-san-andreas.jpg) no-repeat;
+  background: url(/img/bg-card-san-andreas.jpg) no-repeat;
   background-size: cover;
 }
 
