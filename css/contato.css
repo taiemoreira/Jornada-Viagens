@@ -1,0 +1,102 @@
+.contato-hero .hero-img {
+  background: url(/img/contato-form/bg-tablet-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.contato-texts p {
+  text-align: center;
+}
+
+.contato-form input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 100%;
+  margin-bottom: 64px;
+  padding-bottom: 8px;
+}
+
+.contato-form input::placeholder {
+  font-family: "Montserrat";
+  color: #8c8c8c;
+  font-size: 16px;
+}
+
+.contato-form input:focus {
+  border-bottom: 2px solid var(--secondary-color);
+  outline: none;
+}
+
+.contato-form input:focus::placeholder {
+  color: var(--background-tertiary-color);
+}
+
+.contato-form label {
+  color: #8c8c8c;
+  font-size: 16px;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.contato-form textarea {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  padding: 5px 0 0 6px;
+}
+
+.contato-form a {
+  width: 100%;
+}
+
+.contato-form textarea:focus {
+  outline: none;
+  border: 2px solid var(--secondary-color);
+}
+
+.contato-bottom .hero-img {
+  background: url(/img/contato-form/bg-bottom-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .contato-hero .hero-img {
+    background: url(/img/contato-form/bg-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .contato-texts p {
+    text-align: center;
+    margin-top: 56px;
+  }
+  .contato-form a {
+    width: auto;
+  }
+  .contato-form {
+    text-align: center;
+  }
+  .contato-bottom .hero-img {
+    background: url(/img/contato-form/bg-bottom-tablet.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .contato-form {
+    width: 790px;
+  }
+  .contato-bottom .hero-img {
+    background: url(/img/contato-form/bg-bottom-desktop.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+  }
+}

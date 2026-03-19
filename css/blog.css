@@ -78,10 +78,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
-  .section-title {
+  .blog-posts .section-title {
     margin: 0px auto;
   }
-  .section-title hr {
+  .blog-posts .section-title hr {
     margin: 0px auto;
     margin-top: 16px;
   }
